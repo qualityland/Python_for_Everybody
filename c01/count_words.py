@@ -1,5 +1,5 @@
 f = input('Enter file: ')
-handle = open(f)
+handle = open(f, 'r')
 
 counts = dict()
 for line in handle:
