@@ -1,0 +1,5 @@
+fhand = open('../src/mbox-short.txt', 'r')
+inp = fhand.read()
+print(len(inp))
+print(inp[:20])
+print(inp)
