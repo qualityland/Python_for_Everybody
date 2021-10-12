@@ -1,4 +1,9 @@
+INSERT INTO Users (name, email) VALUES ('Chuck', 'csev@umich.edu');
+INSERT INTO Users (name, email) VALUES ('Colleen', 'vlt@umich.edu');
+INSERT INTO Users (name, email) VALUES ('Sally', 'sally@umich.edu');
+INSERT INTO Users (name, email) VALUES ('Fred', 'fred@umich.edu');
 INSERT INTO Users (name, email) VALUES ('Kristin', 'kf@umich.edu');
+INSERT INTO Users (name, email) VALUES ('Ted', 'ted@umich.edu');
 DELETE FROM Users WHERE email='ted@umich.edu';
 UPDATE Users SET name='Charles' WHERE email='csev@umich.edu';
 SELECT * FROM Users;
